@@ -1,1 +1,2 @@
-I love C
+#!/bin/bash
+gcc -o cisfun $CFILE
