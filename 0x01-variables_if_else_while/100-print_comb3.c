@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - Prints combination of numbers
- *Return: Always(Success)
+ *Return:Always(Success)
 */
 int main(void)
 {
