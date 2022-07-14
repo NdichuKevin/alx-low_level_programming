@@ -2,9 +2,9 @@
 /**
  *infinite_add - Adds two numbers.
  *@n1:The first number to be added.
- *@n2: The second number to be added. @r: The buffer to store the result.
- *@size_r: The buffer size.
- *Return: If r can store the sum - a pointer to the result.
+ *@n2:The second number to be added. @r: The buffer to store the result.
+ *@size_r:The buffer size.
+ *Return:If r can store the sum - a pointer to the result.
  *If r cannot store the sum - 0.
 */
 
