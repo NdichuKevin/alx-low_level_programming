@@ -1,11 +1,10 @@
 #include "main.h"
-
 /**
  *_strncpy - Copy a string
  *@dest:The destination value
  *@src:The source value
  *@n:The copy limit
- *Return:char value
+ *Return: char value
 */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -17,7 +16,8 @@ char *_strncpy(char *dest, char *src, int n)
 	b++;
 	}
 	while (a < n && src[a])
-	dest[a] = src[a]
+	{
+	dest[a] = src[a];
 	a++;
 	}
 	while (a < n)
