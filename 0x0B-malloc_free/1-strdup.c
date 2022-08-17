@@ -2,15 +2,15 @@
 #include <stdlib.h>
 /**
  *_strdup - Duplicate a string
- *@str: the string to duplicate
- *Return: the string duplicated
+ *@str:the string to duplicate
+ *Return:the string duplicated
 */
 char *_strdup(char *str)
 {
 	int a = 0, i = 1;
 	char *s;
 
-	f (str == NULL)
+	if (str == NULL)
 	return (NULL);
 	while (str[i])
 	{
@@ -25,5 +25,6 @@ char *_strdup(char *str)
 	a++;
 	}
 	s[a] = '\0';
+
 	return (s);
 }
