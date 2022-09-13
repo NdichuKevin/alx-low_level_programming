@@ -31,7 +31,6 @@ int check_palindrome(char *s)
 	{
 	return (0);
 	}
-
 	return (1);
 }
 /**
