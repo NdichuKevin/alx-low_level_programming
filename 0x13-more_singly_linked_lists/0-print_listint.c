@@ -1,22 +1,22 @@
-#include <stdio.h>
-#include "lists.h"
+#include "main.h"
 /**
- *print_listint - Prints all the elements of a linked list
- *@h: The head of the linked list
- *Return: The number of nodes of the linked list
+ *binary_to_uint - Converts a binary number to an unsigned int.
+ *@b: A pointer to a string of 0 and 1 chars.
+ *Return: If b is NULL or contains chars not 0 or 1 - 0.
+ *Otherwise - the converted number.
 */
-size_t print_listint(const listint_t *h)
+unsigned int binary_to_uint(const char *b)
 {
-	int count = 0;
+	unsigned int num = 0;
+	int len = 0;
 
-	if (h != NULL)
+	if (b[len] == '\0')
+	return (0);
+	while ((b[len] == '0') || (b[len] == '1'))
 	{
-	while (h)
-	{
-	printf("%d\n", h->n);
-	h = h->next;
-	count++;
+	num <<= 1;
+	num += b[len] - '0';
+	len++;
 	}
-	}
-	return (count);
+	return (num);
 }
