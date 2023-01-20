@@ -1,1 +1,1 @@
-My Hash tables C project
+My Hash tables C project. C is great.
