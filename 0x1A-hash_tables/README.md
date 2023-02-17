@@ -1,1 +1,1 @@
-My Hash tables C project. C is great.
+My Hash tables C project. Love it
